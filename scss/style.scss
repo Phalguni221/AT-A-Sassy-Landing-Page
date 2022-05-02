@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: $light-color;
+  background-color: $tertiary-color;
   font-family: $font-stack;
   line-height: 1;
 }
@@ -42,7 +42,6 @@ a {
   li {
     padding: 15px;
   }
-
   a {
     color: text-color-picker($primary-color);
   }
@@ -67,6 +66,7 @@ a {
     line-height: 1.2;
   }
 }
+
 
 }
 

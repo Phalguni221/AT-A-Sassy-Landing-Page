@@ -12,12 +12,20 @@
   overflow: auto;
 }
 
+label {
+  margin-left:650px;
+  scroll-margin-block: 50px;
+  font:bold;
+  font-size:larger
+}
+
 .btn-secondary, .btn-primary {
   display: inline-block;
   border-radius: 5px;
   padding: 8px 20px;
   margin: 3px;
 }
+
 .btn-secondary:hover, .btn-primary:hover {
   transform: scale(0.8);
 }
@@ -39,7 +47,7 @@
 }
 
 body {
-  background-color: #FFC300;
+  background-color: #40E0D0;
   font-family: Trebuchet MS, Arial, sans-serif;
   line-height: 1;
 }

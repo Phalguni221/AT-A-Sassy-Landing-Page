@@ -10,10 +10,9 @@
 
   &:hover {
     transform: scale(.80);
+
   }
 }
-
-
 
 .btn-primary {
   @extend %btn;
@@ -23,5 +22,10 @@
 .btn-secondary {
   @extend %btn;
   @include set-bg($secondary-color);
+}
+
+label {
+  @include set-bg($secondary-color);
+  text-align:center;
 }
 
