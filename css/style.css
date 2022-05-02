@@ -31,7 +31,7 @@ label {
 }
 
 .btn-primary {
-  background-color: #001c47;
+  background-color: #40E0D0;
   color: white;
 }
 
@@ -54,7 +54,15 @@ body {
 
 img {
   border-radius: 50%;
+  max-width:-100px;
 }
+
+.img{
+  border-radius:50%;
+  max-width:100px;
+  max-height:fit-content;
+}
+
 
 a {
   text-decoration: none;
